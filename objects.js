@@ -6,6 +6,6 @@ var updatePlaylist= (playlist,key,value) =>{
   return playlist;
 }
 var removeFromPlaylist= (playlist,key) =>{
-  delete playlist.key;
+  delete playlist[key];
   return playlist;
 }
